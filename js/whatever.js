@@ -1,12 +1,12 @@
 const d = new Date();
 // let hour = d.getHours();
-let hour = 20
+let hour = 2
 let greetingText = document.getElementById("greeting-text");
 
 if (hour < 12) {
     // if hour is less than 12pm
     greetingText.textContent = "Good Morning!";
-    document.querySelector(".solarnlunarmass").classList.add("morning-bg");
+    document.getElementsByTagName("body")[0].classList.add("morning-bg");
     document.querySelector(".lunarbody").classList.add("sun");
     // document.querySelector(".night").classList.add("d-none");
     // document.querySelector(".moon").classList.add("d-none");
@@ -15,7 +15,7 @@ if (hour < 12) {
   } else if (hour < 17) {
     // if hour is less than 17:00 (but greater than 12pm)
     greetingText.textContent = "Good Afternoon!";
-    document.querySelector(".solarnlunarmass").classList.add("noon-bg");
+    document.getElementsByTagName("body")[0].classList.add("noon-bg");
     document.querySelector(".lunarbody").classList.add("noon-sun");
     // document.querySelector(".morning").classList.add("d-none");
     // document.querySelector(".sun").classList.add("d-none");
@@ -24,7 +24,7 @@ if (hour < 12) {
   } // hour is greater than 17:00
   else {
     greetingText.textContent = "Good Night!";
-    document.querySelector(".solarnlunarmass").classList.add("night-gradient");
+    document.getElementsByTagName("body")[0].classList.add("night-gradient");
     document.querySelector(".lunarbody").classList.add("moon");
     // document.querySelector(".morning").classList.add("d-none");
     // document.querySelector(".sun").classList.add("d-none");

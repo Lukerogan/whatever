@@ -18,8 +18,8 @@ body {
 .sun{
     background-image:url("https://static.vecteezy.com/system/resources/previews/037/748/067/non_2x/cute-sun-in-the-morning-free-png.png");
     background-size: contain;
-    height: 25vw;
-    width: 25vw;
+    height: 50vw;
+    width: 50vw;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-animation: rotate-scale-up 0.65s linear both;
@@ -27,9 +27,9 @@ body {
 }
 
 .morning-bg{
-  background-color:rgb(19, 204, 250)
-}
-
+ 
+  background: rgb(255,0,142);
+  background: linear-gradient(0deg, rgba(255,0,142,1) 15%, rgba(1,106,175,1) 55%, rgba(53,76,200,1) 100%);}
 
 .back {
     display: flex;
@@ -42,15 +42,16 @@ body {
 .noon-sun {
 background-image: url("https://purepng.com/public/uploads/large/3150635235038sltjl2scjqyrycktmiru9x5yqax1kqjk3ywzmmifjhtzysjribji2pmd7mg7hiss0noxqs8npk8fj0cwis0zw2lxv679l8l9yy.png");
     background-size: contain;
-    height: 25vw;
-    width: 25vw;
+    height: 50vw;
+    width: 50vw;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-animation: rotate-scale-up 0.65s linear both;
     animation: rotate-scale-up 0.65s linear both;
 }
 .noon-bg {
-    background-color:rgb(28,152,247);
+  background: rgb(0,26,255);
+background: linear-gradient(0deg, rgba(0,26,255,1) 0%, rgba(0,252,255,1) 40%, rgba(0,26,255,1) 100%);
 }
 
 
@@ -58,8 +59,8 @@ background-image: url("https://purepng.com/public/uploads/large/3150635235038slt
 .moon{
     background-image: url("https://static.vecteezy.com/system/resources/previews/045/354/775/non_2x/lunar-radiance-clear-background-moon-free-png.png");
     background-size: contain;
-    height: 25vw;
-    width: 25vw;
+    height: 50vw;
+    width: 50vw;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-animation: rotate-scale-up 0.65s linear both;
@@ -70,14 +71,13 @@ background-image: url("https://purepng.com/public/uploads/large/3150635235038slt
 
 
  .night-gradient{
-    background-color: black;
-     -webkit-background-clip: text;
+  background: rgb(5,26,168);
+  background: rgb(52,73,189);
+  background: radial-gradient(circle, rgba(52,73,189,1) 0%, rgba(55,50,121,1) 42%, rgba(35,27,84,1) 74%);     -webkit-background-clip: text;
   -webkit-text-fill-color: white;
 }
 
-.night-gradient{
-  background-color: brown;
-}
+
 
 
 
